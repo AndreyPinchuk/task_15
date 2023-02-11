@@ -8,6 +8,7 @@ public class Task15Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Task15Application.class, args);
+
 	}
 
 }

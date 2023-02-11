@@ -7,4 +7,4 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password, authority, enabled) VALUES
-    ('user', '$2a$10$yskKrbO1OQ0nkXPU9G8XCu5qvmVhcz5j.9fuPqTL9eiqmwDIuAmT2', 'ROLE_USER', 1);
+    ('user', '$2a$10$7TVqAqUkc04D3.E49aKKCOlN/HbHBwrnHaebLKZvZzY41BwPeLFpS', 'ROLE_USER', 1);
