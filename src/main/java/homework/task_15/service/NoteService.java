@@ -40,10 +40,6 @@ public class NoteService {
     }
 
     public Note getById(long id){
-        if (noteRepository.existsById(id)){
-            return noteRepository.getReferenceById(id);
-        } else {
-            throw new RuntimeException("Id not found");
-        }
+        return noteRepository.findById(id).get();
     }
 }
